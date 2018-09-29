@@ -130,6 +130,7 @@ span{
     background-position: center;
     background-repeat: no-repeat;
     height: 360px;
+    opacity: 0.5;
 }
 .imgs #img-2{
     background: url("ss\ \(2\).png");
@@ -137,6 +138,7 @@ span{
     background-position: center;
     background-repeat: no-repeat;
     height: 360px;
+    opacity: 0.5;
 }
 .imgs #img-3{
     background: url("ss\ \(3\).png");
@@ -144,6 +146,7 @@ span{
     background-position: center;
     background-repeat: no-repeat;
     height: 360px;
+    opacity: 0.5;
 }
 
 .imgs #img-1:hover{
@@ -151,9 +154,7 @@ span{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 480px;
-    width: 720px;
-    transition: 1s;
+    opacity: 1;
 }
 
 .imgs #img-2:hover{
@@ -171,9 +172,7 @@ span{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 480px;
-    width: 1080px;
-    transition: 1s;
+    opacity: 1;
 }
 */
 .imgs #img-1{
@@ -206,9 +205,6 @@ span{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 480px;
-    width: 720px;
-    transition: ease-in-out 1s;
     opacity: 1;
 }
 
@@ -217,9 +213,6 @@ span{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 480px;
-    width: 3280px;
-    transition: ease-in-out 1.5s;
     opacity: 1;
 }
 
@@ -228,9 +221,6 @@ span{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 480px;
-    width: 1080px;
-    transition: ease-in-out 1.2s;
     opacity: 1;
 }
 
