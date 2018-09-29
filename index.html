@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SalmanCodes</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+</head>
+<body>
+    <!--Top Sec-->
+    <div class="top-sec">
+        <div class="holder">
+            <div class="top-txt">
+                <h1>Hello, I'm <span class="highlight">Salman</span></h1>
+                <p>I'm a Web Developer</p>
+                <a href="#main">Know More</a>
+            </div>
+        </div>
+    </div>
+    <!--Main sec-->
+    <div id="main">
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <a href="#" class="brand-logo">Salman<span>Codes</span></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="navId" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#abtSec">About</a>
+                    </li>
+                    <li>
+                        <a href="#sklSec">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#wrkSec">Works</a>
+                    </li>
+                    <li>
+                        <a href="#cntSec">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Skills</a>
+            </li>
+            <li>
+                <a href="#">Works</a>
+            </li>
+            <li>
+                <a href="#">Connect</a>
+            </li>
+        </ul>
+
+        <!--about-->
+        <div class="about-sec" id="AbtSec">
+            <div class="abt-top">
+                <p id="abt-p">About</p>
+                <hr>
+            </div>
+            <div class="abt-img">
+                <div class="boxes">
+                    <div class="box" id="box-1"></div>
+                    <div class="box" id="box-2">
+                        <img src="pexels-photo-890710.jpeg" alt="" width="360px;" height="360px;">
+                    </div>
+                    <div class="box" id="box-3"></div>
+                </div>
+            </div>
+            <div class="abt-txt">
+                <p id="abtTxt">
+                     I'm a passionate WEB Designer/Developer and Front-End as well as Back-End Developer creating modern and responsive design
+                    for Web and Mobile. Let's start scrolling and learn more.<br>
+                    <br>
+                    Once you understand that everybody's going to get connected, a
+                    lot of things follow from that. If everybody gets the Internet, they end up with a browser, so they look at web pages - but
+                    they can also leave comments, create web pages. They can even host their own server! So not only is everybody consuming,
+                    they can also produce.<br>
+                    <br>
+                    "Google did a great job hacking the Web to create search - and then monetizing search with advertising.
+                    And Apple did a great job humanizing hardware and software so that formerly daunting computers and applications could become
+                    consumer-friendly devices - even a lifestyle brand."
+                </p>
+            </div>
+        </div>
+
+        <!--skills-->
+        <div class="skills-sec" id="sklSec">
+            <div class="skills-top">
+                <p id="skills-p">Skills</p>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="skills-bar">
+                    <div class="chart" data-percent="85" data-scale-color="#FFFFFF"><p>Html</p></div>
+                    <div class="chart" data-percent="80" data-scale-color="#FFFFFF"><p>Css</p></div>
+                </div>
+                <div class="skills-bar">
+                    <div class="chart" data-percent="75" data-scale-color="#FFFFFF">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="chart" data-percent="70" data-scale-color="#FFFFFF">
+                        <p>jQuery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Works-->
+        <div class="works-sec" id="wrkSec">
+            <div class="wrk-top">
+                <p id="wrk-p">Works</p>
+                <hr>
+                <div class="wrk-img">
+                    <div class="imgs">
+                        <div class="img" id="img-1"></div>
+                        <div class="img" id="img-2"></div>
+                        <div class="img" id="img-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Connect-->
+        <div class="connect-sec" id="cntSec">
+            <div class="cnt-top">
+                <p id="cntt-p">Connect</p>
+                <hr>
+            </div>
+            <div class="cnt-txt">
+                <p>Join me at my social accounts.</p>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </div>
+            <div class="cnt-btm">
+                <p>
+                    <i class="fas fa-phone-volume"></i>
+                    <span id="phnEml">+917021027249</span>
+                </p>
+                <p>
+                    <i class="fas fa-at"></i>
+                    <span id="phnEml">write@SalmanCodes.in</span>
+                </p>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <p>Salman<span>Codes</span></p>
+            <p>copyright 2018 &copy;</p>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init('sideNav');
+    </script>
+    <script src="jquery.easypiechart.js"></script>
+    <script>
+        $(function () {
+            $('.chart').easyPieChart({
+                size: 150,
+                barColor: '#151B54',
+                       
+            });
+        });
+    </script>
+</body>
+</html>
